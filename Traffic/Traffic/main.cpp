@@ -138,7 +138,7 @@ int main(int argc, char* argv[])
 			}
 			double fps = cap.get(CV_CAP_PROP_FPS); //get the frames per seconds of the video
 
-			cout << "Traffic Light Display from EE238\n\nFrame per seconds : " << fps << endl;
+			cout << "Traffic Light Display from EE238 Cam\n\nFrame per seconds : " << fps << endl;
 
 			namedWindow(command, CV_WINDOW_AUTOSIZE); 
 
