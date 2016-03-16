@@ -191,17 +191,10 @@ int main(int argc, char* argv[])
 				waitKey(10);
 			}
 		}
-
-		
-
-
 		if (waitKey(30) == 27) //wait for 'esc' key press for 30 ms. If 'esc' key is pressed, break loop
 		{
 			isRunning = false;
 		}
-
 	}
-
 	return 0;
-
 }
